@@ -21,7 +21,7 @@ async def about(bot,update):
 async def donatecm(bot,message):
     text = script.DONATE_TXT
     keybord = InlineKeyboardMarkup([
-        [InlineKeyboardButton("🦋 Admin",url = "https://telegram.me/CallOwnerBot"),
+        [InlineKeyboardButton("🦋 Admin",url = "https://telegram.me/the_tgguy"),
         InlineKeyboardButton("✖️ Close",callback_data = "cancel") ]])
     await message.reply_text(text = text,reply_markup = keybord)    
 
@@ -76,12 +76,12 @@ async def donate(bot,update):
 
 @Client.on_callback_query(filters.regex('home'))
 async def home_callback_handler(bot, query):
-    text = f"""{query.from_user.mention} \n<b>ɪ  ᴀᴍ  ᴀɴ  ᴀᴅᴠᴀɴᴄᴇ  ꜰɪʟᴇ  ʀᴇɴᴀᴍᴇʀ  ᴀɴᴅ  ᴄᴏɴᴠᴇʀᴛᴇʀ  ʙᴏᴛ  ᴡɪᴛʜ  ᴘᴇʀᴍᴀɴᴇɴᴛ  ᴀɴᴅ  ᴄᴜsᴛᴏᴍ  ᴛʜᴜᴍʙɴᴀɪʟ  sᴜᴘᴘᴏʀᴛ.\n\nᴊᴜsᴛ  sᴇɴᴅ  ᴍᴇ  ᴀɴʏ  ᴠɪᴅᴇᴏ  ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ !!\n\nᴏᴡɴᴇʀ - @TechifyBots</b>"""
+    text = f"""{query.from_user.mention} \n<b>ɪ  ᴀᴍ  ᴀɴ  ᴀᴅᴠᴀɴᴄᴇ  ꜰɪʟᴇ  ʀᴇɴᴀᴍᴇʀ  ᴀɴᴅ  ᴄᴏɴᴠᴇʀᴛᴇʀ  ʙᴏᴛ  ᴡɪᴛʜ  ᴘᴇʀᴍᴀɴᴇɴᴛ  ᴀɴᴅ  ᴄᴜsᴛᴏᴍ  ᴛʜᴜᴍʙɴᴀɪʟ  sᴜᴘᴘᴏʀᴛ.\n\nᴊᴜsᴛ  sᴇɴᴅ  ᴍᴇ  ᴀɴʏ  ᴠɪᴅᴇᴏ  ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ !!\n\nᴏᴡɴᴇʀ - @the_tgguy</b>"""
     keybord = InlineKeyboardMarkup([  
-                    [InlineKeyboardButton("📢 Updates", url="https://telegram.me/TechifyBots"),
-                    InlineKeyboardButton("💬 Support", url="https://telegram.me/TechifySupport")],
+                    [InlineKeyboardButton("📢 Updates", url="https://telegram.me/the_tgguy"),
+                    InlineKeyboardButton("💬 Support", url="https://telegram.me/All_in_1grp")],
                     [InlineKeyboardButton("🛠️ Help", callback_data='help'),
 		            InlineKeyboardButton("❤️‍🩹 About", callback_data='about')],
-                    [InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url="https://telegram.me/RahulReviewsYT")]
+                    [InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url="https://telegram.me/Itsme123i")]
 		  ])
     await query.message.edit_text(text=text, reply_markup=keybord)
