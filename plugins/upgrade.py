@@ -12,15 +12,15 @@ Price 0
 
 **🪙 Basic**
 Daily  Upload  limit 20GB
-Price Rs 30  ind /🌎 0.$  per Month
+Price Rs 30  ind /🌎 0.35$  per Month
 
 **⚡ Standard**
 Daily Upload limit 50GB
-Price Rs 70  ind /🌎 1.19$  per Month
+Price Rs 70  ind /🌎 0.83$  per Month
 
 **💎 Pro**
 Daily Upload limit 100GB
-Price Rs 110  ind /🌎 2.16$  per Month
+Price Rs 110  ind /🌎 1.30$  per Month
 
 Payment Details :-
 <b>➜ UPI ID :</b> <code>7305347700@pytes</code>
@@ -44,15 +44,15 @@ Price 0
 
 **🪙 Basic**
 Daily  Upload  limit 20GB
-Price Rs 30  ind /🌎 0.59$  per Month
+Price Rs 30  ind /🌎 0.35$  per Month
 
 **⚡ Standard**
 Daily Upload limit 50GB
-Price Rs 70  ind /🌎 1.19$  per Month
+Price Rs 70  ind /🌎 0.83$  per Month
 
 **💎 Pro**
 Daily Upload limit 100GB
-Price Rs 110  ind /🌎 2.16$  per Month
+Price Rs 110  ind /🌎 1.30$  per Month
 
 Payment Details :-
 <b>➜ UPI ID :</b> <code>7305347700@pytes</code>
